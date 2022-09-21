@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 75%;
+    margin: auto;
+    box-shadow: 1px 1px 3px 2px black;
+}
+.row{
+    width: 100%;
+}
+.row::before,.row::after{
+    display: table;
+    content: "";
+}
+.row::after{
+    clear: both;
+}
+.col{
+    float: left;
+    margin: 1%;
+    padding: 1%;
+}
+.col-third{
+    width: 25.3333333%;
+}

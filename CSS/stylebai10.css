@@ -1,0 +1,15 @@
+.box{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 0;
+    top: 100px;
+    background-color: #ffcc00;
+    animation: infinite 5s scroll;
+}
+@keyframes scroll{
+    to{
+        left: 90%;
+        transform: rotate(180deg);
+    }
+}

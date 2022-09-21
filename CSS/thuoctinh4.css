@@ -1,0 +1,32 @@
+table{
+    margin: auto;
+    margin-top: 25vh;
+    width: 50%;
+    height: 50vh;
+    border-collapse: collapse;
+    box-shadow: 1px 1px 3px 3px black;
+}
+table, td {
+    border: 0.5px solid rgb(83, 5, 5);
+}
+td{
+    padding: 20px;
+}
+tr:nth-child(even){
+    background-color: gray;
+
+}
+tr:first-child{
+    background-color: rgb(83, 5, 5);
+    color: white;
+}
+tr:first-child td:first-child{
+    border-right: 0.5px solid rgb(150, 134, 134);
+
+}
+td:first-child{
+    text-align: left;
+}
+td:nth-child(2){
+    text-align: right;
+}
